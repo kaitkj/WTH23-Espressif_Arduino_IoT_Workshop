@@ -1,10 +1,11 @@
-# ESP RainMaker Switch
+# ESP RainMaker Switch n LDR
 
-This example demonstrates how to build a switch device to be used with ESP RainMaker.
+This example is based on the ESP RainMaker Switch example. It is adapted for SUTD WTH 2023 to demonstrates how to build a switch device and LDR to be used with ESP RainMaker.
 
 ## What to expect in this example?
 
 - This example sketch uses the on board Boot button and GPIO16 to demonstrate an ESP RainMaker switch device.
+- This example sketch uses GPIO4 as a input pin to measure the change in voltage to measure LDR sensor reading.
 - After compiling and flashing the example, add your device using the [ESP RainMaker phone apps](https://rainmaker.espressif.com/docs/quick-links.html#phone-apps) by scanning the QR code.
 - Toggling the state from the phone app will toggle the switch state (GPIO16).
 - Pressing the Boot button will toggle the switch state (GPIO16) and the same will reflect on the phone app.
