@@ -20,7 +20,7 @@ static int gpio_switch = 16;
 bool switch_state = true;
 
 void setup() {
-  // initialize serial communication at 9600 bits per second:
+  // initialize serial communication at 115200 bits per second:
   Serial.begin(115200);
   pinMode(gpio_0, INPUT_PULLUP);
   pinMode(gpio_switch, OUTPUT);
